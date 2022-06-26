@@ -256,7 +256,7 @@
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".over-all", 0.5, {
+    t1.to(".over-all", 1, {
         autoAlpha: 1,
         ease: Expo.easeOut,
     })

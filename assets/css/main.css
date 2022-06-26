@@ -961,6 +961,7 @@ h1.title {
 =====================================================*/
 .bg-about {
   background: url("../img/about-1.jpg") center no-repeat;
+  background-size: cover;
   z-index: 3;
   position: fixed;
   text-align: center;
@@ -971,10 +972,12 @@ h1.title {
 }
 
 .bg-about-2 {
-  background: url("../img/about-2.jpg") center no-repeat;
+  background: url("../img/about-2.jpg")no-repeat center center fixed;
+  background-size: cover;
   z-index: 3;
-  position: fixed;
+  position: relative;
   text-align: center;
+  object-fit: cover;
   left: 10vw;
   height: 50vh;
   width: 30vw;
