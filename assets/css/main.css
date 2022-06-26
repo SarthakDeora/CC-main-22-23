@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*-----------------------------------------------------------------
 Project             : Spiral – Creative Digital Portfolio Template
 Version             : 1.0
@@ -279,11 +280,11 @@ a:hover {
   background: url("../img/wait.svg") no-repeat center center;
   border: 0;
   -webkit-animation-name: spin;
-          animation-name: spin;
+  animation-name: spin;
   -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   margin-left: -50px;
   margin-top: -50px;
   mix-blend-mode: normal;
@@ -322,7 +323,7 @@ a:hover {
   z-index: 9999;
 }
 
-.loader-logo{
+.loader-logo {
   position: relative;
   width: 50px;
   padding-bottom: 3px;
@@ -332,7 +333,7 @@ a:hover {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -341,11 +342,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .between {
@@ -541,11 +542,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   margin-top: 10vh;
   width: 50px;
@@ -630,11 +631,11 @@ nav .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .menu-text p {
@@ -728,13 +729,13 @@ a {
   top: calc(90vh - 50px);
   left: calc(50% - 50px);
   -webkit-animation-name: spin;
-          animation-name: spin;
+  animation-name: spin;
   -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .bg-right {
@@ -836,22 +837,24 @@ h1.title {
 @-webkit-keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -1462,8 +1465,8 @@ h3.detail-title {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #fff;
 }
 
@@ -1491,24 +1494,24 @@ h3.detail-title {
   left: 0;
 }
 
-.menu__toggler.activez > span {
+.menu__toggler.activez>span {
   background: transparent;
 }
 
-.menu__toggler.activez > span::before,
-.menu__toggler.activez > span::after {
+.menu__toggler.activez>span::before,
+.menu__toggler.activez>span::after {
   background: #000;
   top: 0px;
 }
 
-.menu__toggler.activez > span::before {
+.menu__toggler.activez>span::before {
   -webkit-transform: rotate(-225deg);
-          transform: rotate(-225deg);
+  transform: rotate(-225deg);
 }
 
-.menu__toggler.activez > span::after {
+.menu__toggler.activez>span::after {
   -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  transform: rotate(225deg);
 }
 
 /*
@@ -1521,7 +1524,7 @@ h3.detail-title {
   color: #000;
   background: #ffff;
   -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
   width: 30%;
   height: 100%;
   padding: 100px;
@@ -1530,11 +1533,11 @@ h3.detail-title {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-transition: 100ms left cubic-bezier(0.77, 0, 0.175, 1);
   transition: 100ms left cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -1624,7 +1627,7 @@ h3.detail-title {
 
 .swiper-slide {
   -webkit-transition-delay: 2s;
-          transition-delay: 2s;
+  transition-delay: 2s;
   transition: .2s ease all;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
@@ -1644,11 +1647,11 @@ h3.detail-title {
 
 .swiper-wrapper {
   -webkit-transition-delay: .2s;
-          transition-delay: .2s;
+  transition-delay: .2s;
 }
 
-.swiper-container-horizontal > .swiper-pagination-progressbar,
-.swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+.swiper-container-horizontal>.swiper-pagination-progressbar,
+.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 40%;
   height: 2px;
   left: 30%;
@@ -1727,7 +1730,7 @@ h3.lght {
   color: #000;
 }
 
-.banner{
+.banner {
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -1735,11 +1738,34 @@ h3.lght {
   justify-content: center;
   align-items: center;
 }
-.banner video{
+
+.banner video {
   position: absolute;
   top: 0;
   left: 0;
-  object-fit:cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.countdown {
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+  top: 85vh;
+  color: white;
+  /* font-family: 'Poppins'; */
+}
+.list-social{
+  padding-top:10.5px ;
+}
+#fnt-size{
+  top: 89vh;
+}
+.countdown-inside{
+  font-size: 20px !important ;
 }
