@@ -22,24 +22,24 @@
             delay: '.3',
             ease: Power4.easeInOut,
         })
-        TweenMax.from('.toggle-btn', 1, {
+        TweenMax.from('.toggle-btn', 0.5, {
             y: '100',
             delay: '.3',
             autoAlpha: 0,
             ease: Power4.easeInOut,
         })
-        TweenMax.from('.bg-right', 1, {
+        TweenMax.from('.bg-right', 0.5, {
             x: 100,
             ease: Power4.easeInOut,
             delay: '.3',
         })
-        TweenMax.from('.bg-about', 1, {
+        TweenMax.from('.bg-about', 0.5, {
             x: 100,
             ease: Power4.easeInOut,
             delay: '.3',
         })
 
-        TweenMax.from('.scr', 1, {
+        TweenMax.from('.scr', 0.5, {
             y: '100',
             ease: Power4.easeInOut,
             autoAlpha: 0,
@@ -241,22 +241,22 @@
     var t1 = new TimelineMax({
         paused: true
     });
-    t1.to(".one", 0.8, {
+    t1.to(".one", 0.5, {
         y: 9,
         autoAlpha: 0,
         ease: Expo.easeInOut
     });
-    t1.to(".two", 0.8, {
+    t1.to(".two", 0.3, {
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".tre", 0.8, {
+    t1.to(".tre", 0.5, {
         y: -9,
         autoAlpha: 0,
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".over-all", 1, {
+    t1.to(".over-all", 0.5, {
         autoAlpha: 1,
         ease: Expo.easeOut,
     })
@@ -328,7 +328,7 @@
     function calcDistance(elem, mouseX, mouseY) {
         return Math.floor(Math.sqrt(Math.pow(mouseX - (elem.offset().left + (elem.width() / 2)), 2) + Math.pow(mouseY - (elem.offset().top + (elem.height() / 2)), 2)));
     }
-    let launchDate = new Date("Jan 28, 2023 12:00:00").getTime();
+    let launchDate = new Date("Nov 16, 2022 12:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
