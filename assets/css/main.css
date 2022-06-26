@@ -515,7 +515,7 @@ body {
   position: fixed;
   top: 88vh;
   right: 9%;
-  z-index: 10;
+  z-index: 11;
 }
 
 .socials ul {
@@ -523,7 +523,7 @@ body {
 }
 
 .socials ul li {
-  display: inline;
+  display: inline-block;
   margin-left: 15px;
 }
 
@@ -1295,6 +1295,7 @@ h3.detail-title {
 =====================================================*/
 .bg-work {
   background: url("../img/port/1.jpg") center no-repeat;
+  background-size: cover;
   z-index: 3;
   position: fixed;
   text-align: center;
@@ -1306,6 +1307,7 @@ h3.detail-title {
 
 .bg-work-2 {
   background: url("../img/port/3.jpg") center no-repeat;
+  background-size: cover;
   z-index: 3;
   position: fixed;
   text-align: center;
@@ -1765,6 +1767,9 @@ h3.lght {
 }
 .list-social{
   padding-top:10.5px ;
+  z-index: 10 !important;
+  cursor: pointer;
+  text-align: center;
 }
 #fnt-size{
   top: 89vh;
