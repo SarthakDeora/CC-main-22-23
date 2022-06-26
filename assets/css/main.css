@@ -560,7 +560,8 @@ nav .container {
   height: 50px;
   left: 8%;
   mix-blend-mode: difference;
-  z-index: 99 !important;
+  z-index: 9 !important;
+  cursor: default;
 }
 
 .toggle-btn::before {
@@ -700,7 +701,7 @@ a.menu-link.active {
 }
 
 a {
-  cursor: none;
+  cursor: pointer;
 }
 
 /* ==================================================
@@ -708,7 +709,7 @@ a {
 3 - CURSOR
 
 =====================================================*/
-.cursor,
+/* .cursor,
 .cursor1 {
   pointer-events: none;
   position: fixed;
@@ -836,7 +837,7 @@ a {
   margin-left: -50px;
   margin-top: -50px;
   mix-blend-mode: normal;
-}
+} */
 
 /* ==================================================
 
@@ -1022,7 +1023,7 @@ h1.title {
 }
 
 .folio-content .folio-item .img-folio a {
-  cursor: none;
+  cursor: pointer;
 }
 
 .folio-content .folio-item .img-folio img {
@@ -1656,8 +1657,8 @@ h3.detail-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
-  transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: 100ms left cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 100ms left cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 @media only screen and (max-width: 600px) {
