@@ -322,6 +322,12 @@ a:hover {
   z-index: 9999;
 }
 
+.loader-logo{
+  position: relative;
+  width: 50px;
+  padding-bottom: 3px;
+}
+
 * {
   padding: 0;
   margin: 0;
