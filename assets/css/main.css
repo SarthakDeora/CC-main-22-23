@@ -924,17 +924,18 @@ h1.title {
   font-family: 'Poppins', sans-serif;
   color: transparent;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
   -webkit-text-stroke: 1px #fff;
   z-index: 4;
   left: 50%;
-  bottom: 1px;
+  bottom: -6px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+  /* top: 10em; */
 }
 
 .folio-content .folio-item .text-folio h2.text-2 {
@@ -942,16 +943,17 @@ h1.title {
   font-family: 'Poppins', sans-serif;
   color: #fff;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
   z-index: 1;
   left: 50%;
-  bottom: 1px;
+  bottom: -6px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+    /* top: 10em; */
 }
 
 /* ==================================================

@@ -170,7 +170,7 @@
 
     $('.img-folio').on('mouseenter', function () {
         TweenMax.to(this, 0.4, {
-            y: '-30',
+            y: '-20',
         })
     });
 
