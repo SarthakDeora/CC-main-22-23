@@ -1198,6 +1198,12 @@ h1.title {
 .partner-list img {
   padding: 30px;
 }
+.sponsor-fit{
+  max-width: 283px;
+  height: 187.953px;
+  object-fit:fill ;  
+  overflow:hidden;
+}
 
 /* ==================================================
 
