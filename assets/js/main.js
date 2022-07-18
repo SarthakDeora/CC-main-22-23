@@ -19,24 +19,24 @@
         TweenMax.from('.logo', 1, {
             y: '100',
             autoAlpha: 0,
-            delay: '.3',
+            delay: '.1',
             ease: Power4.easeInOut,
         })
         TweenMax.from('.toggle-btn', 0.5, {
             y: '100',
-            delay: '.3',
+            delay: '.1',
             autoAlpha: 0,
             ease: Power4.easeInOut,
         })
         TweenMax.from('.bg-right', 0.5, {
             x: 100,
             ease: Power4.easeInOut,
-            delay: '.3',
+            delay: '.1',
         })
         TweenMax.from('.bg-about', 0.5, {
             x: 100,
             ease: Power4.easeInOut,
-            delay: '.3',
+            delay: '.1',
         })
 
         TweenMax.from('.scr', 0.5, {
@@ -241,22 +241,22 @@
     var t1 = new TimelineMax({
         paused: true
     });
-    t1.to(".one", 0.5, {
+    t1.to(".one", 0.25, {
         y: 9,
         autoAlpha: 0,
         ease: Expo.easeInOut
     });
-    t1.to(".two", 0.3, {
+    t1.to(".two", 0.15, {
         ease: Expo.easeInOut,
-        delay: -1
+        delay: -0.3
     });
-    t1.to(".tre", 0.5, {
+    t1.to(".tre", 0.25, {
         y: -9,
         autoAlpha: 0,
         ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".over-all", 1, {
+    t1.to(".over-all", 0.1, {
         autoAlpha: 1,
         ease: Expo.easeOut,
     })

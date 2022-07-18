@@ -1785,3 +1785,9 @@ h3.lght {
 .countdown-inside{
   font-size: 25px !important ;
 }
+.about-text h3 span{
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
