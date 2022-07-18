@@ -254,7 +254,7 @@
         y: -9,
         autoAlpha: 0,
         ease: Expo.easeInOut,
-        delay: -1
+        delay: -0.6
     });
     t1.to(".over-all", 0.1, {
         autoAlpha: 1,
