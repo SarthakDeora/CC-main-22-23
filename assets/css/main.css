@@ -936,8 +936,15 @@ h1.title {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   /* top: 10em; */
-}
+  width: 100%;
 
+}
+.folio-content .folio-item .text-folio h2.text-1 span{
+  font-size: 25px;
+}
+.folio-content .folio-item .text-folio h2.text-2 span{
+  font-size: 25px;
+}
 .folio-content .folio-item .text-folio h2.text-2 {
   position: absolute;
   font-family: 'Poppins', sans-serif;
@@ -954,6 +961,7 @@ h1.title {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
     /* top: 10em; */
+    width: 100%;
 }
 
 /* ==================================================
