@@ -908,9 +908,9 @@ h1.title {
 }
 
 .folio-content .folio-item .img-folio img {
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .folio-content .folio-item .img-folio:hover img {
@@ -929,7 +929,7 @@ h1.title {
   -webkit-text-stroke: 1px #fff;
   z-index: 4;
   left: 50%;
-  bottom: -6px;
+  bottom: -84px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -1805,4 +1805,14 @@ h3.lght {
 .link-better{
   text-decoration: none;
   color: rgb(160, 160, 160)  ;
+}
+.centre-object{
+  position: relative;
+  /* position: relative; */
+  left: 50%;
+  right: 50%;
+}
+
+.bottom-less{
+  bottom: -50px !important;
 }
