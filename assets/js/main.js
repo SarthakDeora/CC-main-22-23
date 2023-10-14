@@ -328,7 +328,7 @@
     function calcDistance(elem, mouseX, mouseY) {
         return Math.floor(Math.sqrt(Math.pow(mouseX - (elem.offset().left + (elem.width() / 2)), 2) + Math.pow(mouseY - (elem.offset().top + (elem.height() / 2)), 2)));
     }
-    let launchDate = new Date("Nov 16, 2022 12:00:00").getTime();
+    let launchDate = new Date("Nov 3, 2023 00:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
